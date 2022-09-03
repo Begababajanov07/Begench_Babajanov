@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Anketa</title>
+    </head>
+    <body>
+        <h1 align="center">Заполните анкету</h1>
+        <form action="http:fe-it.academy.by/TestForm.php" method="post">
+            <fieldset>
+                <legend>Личные данные</legend>
+                <label><input type="text" name="last_name" maxlenght="25" required autofocus pattern="[А-Яа-я]+" placeholder="Фвмилия"><br>
+                <input type="text" name="first_name" maxlength="20" required placeholder="ИМя"><br>
+                <input type="text" name="father_name" maxlength="20" required placeholder="Отчество"><br></label>
+                <fieldset>
+                    <legend> Паспортные данные</legend>
+                    <label><input type="text" name="serial_passport" required size="2" maxlength="2" pattern="[А-Z]{2}" placeholder="AA">
+                    <input type="text" name="passport_number" maxlength="7" size="7" pattern="\d{7}" placeholder="1234567" required></label>
+                </fieldset>
+                ><fieldset>
+                    <legend>Дата рождения</legend>
+                    <input type="text" name="year_birth" size="4" maxlength="4" pattern="\d{4}" placeholder="2000"><br>
+                    <select name="months">
+                        <option value="jan">Январь</option>
+                        <option value="feb">Февраль</option>
+                        <option value="mar">Март</option>
+                        <option value="apr">Апрель</option>
+                        <option value="may">Май</option>
+                        <option value="jun">Июнь</option>
+                        <option value="jul">Июль</option>
+                        <option value="aug">Август</option>
+                        <option value="sep">Сентябрь</option>
+                        <option value="oct">Октябрь</option>
+                        <option value="nov">НОябрь</option>
+                        <option value="dec">Декабрь</option>
+                    </select>
+                </fieldset>
+            </fieldset>
+        </form>
+    </body>
+</html>
