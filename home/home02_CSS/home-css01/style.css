@@ -1,0 +1,52 @@
+.черви10{
+width: 145px;
+height: 194px;
+background-image: url(cards.7e0a18f0.png);
+background-position: -140px 196px;
+display: inline-block;
+}
+
+.Дама-пика{
+    width: 145px;
+    height: 194px;
+    background-image: url(cards.7e0a18f0.png);
+    background-position: 0px 768px;
+    display: inline-block;
+    position: relative;
+    left: -70px;
+    bottom: -100px;
+
+}
+
+.бубн9{
+    width: 145px;
+    height: 194px;
+    background-image: url(cards.7e0a18f0.png);
+    background-position: -288px -1392px;
+    display:inline-block;
+    position: relative;
+    left: -140px;
+    bottom: -200px;
+}
+
+.туз{
+    width: 145px;
+    height: 194px;
+    background-image:url(cards.7e0a18f0.png);
+    background: position -144px 388px;
+    display: inline-block;
+    position: relative;
+    left: -210px;
+    bottom: -300px;
+}
+
+.Джокер{
+    width: 145px;
+    height: 194px; 
+    background-image:url(cards.7e0a18f0.png);
+    background-position: 143px 197px;
+    display: inline-block;
+    position: relative;
+    left: 280px;
+    bottom: -400px;
+}
